@@ -1,0 +1,117 @@
+header {
+    background-image: url(larpweapons.png);
+    background-color: #000000;
+    background-position: left;
+    background-repeat: no-repeat;
+    line-height: 500%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #832323, #000000);
+    padding: 1.5em;
+    float: left;
+    width: 180px;
+    font-size: 110%;
+    margin: 0;
+}
+
+nav a {
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 2s linear;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+main {
+    margin-left: 10%;
+    display: block;
+    overflow: auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#contact {
+    margin-left: 10%;
+}
+
+table {
+    background-color: #832323;
+    color: white;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th {
+    padding: .05em;
+    border: 2px solid white;
+}
+
+td {
+    padding: .05em;
+    border: 2px solid white;
+}
+
+tr:nth-of-type(even) {
+    background-color: red;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 150px;
+    padding-right: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
